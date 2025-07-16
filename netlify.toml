@@ -1,0 +1,11 @@
+[build]
+  publish = "api-key-backend/src/static"
+  command = "echo 'Frontend already built and copied to static folder by agent'"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://5000-i7weffsm09qhtij2rxepw-b433e9c8.manusvm.computer/api/:splat"
+  status = 200
+  force = true
+
+
