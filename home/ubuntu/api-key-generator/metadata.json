@@ -1,0 +1,5 @@
+
+{
+  "name": "API Key Generator",
+  "description": "A web application to generate and manage temporary API keys for client projects. Users can generate up to two keys, each with a 15-day expiration period."
+}
